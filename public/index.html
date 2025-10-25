@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, interactive-widget=resizes-content, user-scalable=no" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description"
+      content="Habit Tracker is a straightforward app that helps you track your habits without registration. Mark completed days, track progress, and keep a journal for each habit." />
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.svg" type="image/svg+xml" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.svg" type="image/svg+xml" sizes="any">
-  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content, user-scalable=no" />
-  <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Habit Tracker is a straightforward habit tracker that doesn't require registration. Easily mark your completed days, track your progress, and keep a journal for each habit." />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.svg" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- SEO & Social -->
+    <meta property="og:title" content="Habit Tracker" />
+    <meta property="og:description"
+      content="Track your habits easily with this simple, registration-free Habit Tracker." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:image" content="%PUBLIC_URL%/preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Habit Tracker" />
+    <meta name="twitter:description"
+      content="Stay consistent with your habits using a simple, private tracker." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/preview.png" />
 
-  <title>Habit Tracker</title>
-</head>
+    <!-- Icons -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.svg" type="image/svg+xml" sizes="any" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.svg" />
 
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- App Title -->
+    <title>Habit Tracker</title>
+
+    <!-- Default Font Fallback -->
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Pacifico', cursive, sans-serif;
+        background-color: #000;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
